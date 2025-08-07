@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flash firmware ESP32-C3</title>
+    <!-- Dùng phiên bản mới nhất hợp lệ -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/esp-web-tools@10.0.0/dist/web/install-button.js"></script>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 2rem;
+        max-width: 600px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🔌 Flash firmware cho ESP32-C3</h1>
+    <p>Bấm nút bên dưới để kết nối và nạp firmware:</p>
+    <esp-web-install-button manifest="./firmware/manifest.json"></esp-web-install-button>
+  </body>
+</html>
