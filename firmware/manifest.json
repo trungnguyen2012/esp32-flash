@@ -1,0 +1,12 @@
+{
+  "name": "ESP32-C3 Firmware (merged)",
+  "version": "1.0.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32-C3",
+      "parts": [
+        { "path": "flash.ino.merged.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
